@@ -17,7 +17,7 @@ He dividido este proyecto en diferentes directorios con el fin de representar de
     - [`Calculadora`](https://github.com/moraalees/CalcPOO/blob/main/src/main/kotlin/app/Calculadora.kt): Orquesta lo que viene a ser el flujo principal del programa, llamando a la consola para realizarle preguntas al humano.
 - [`Directorio Data`](https://github.com/moraalees/CalcPOO/tree/main/src/main/kotlin/data): Directorio que se encarga de tener las clases que significan el manejo de datos.
     - [`Operacion`](https://github.com/moraalees/CalcPOO/blob/main/src/main/kotlin/data/Operacion.kt): Interfaz que define las operaciones matemáticas básicas.
-    - [`Calculo`](https://github.com/moraalees/CalcPOO/blob/main/src/main/kotlin/data/Calculo.kt): Implementa correctamente los método de Operacion.
+    - [`Calculo`](https://github.com/moraalees/CalcPOO/blob/main/src/main/kotlin/data/Calculo.kt): Implementa correctamente los método de `Operacion`.
 - [`Directorio Model`](https://github.com/moraalees/CalcPOO/tree/main/src/main/kotlin/model): Encargado de tener las clases de la lógica de negocio, es decir, sobre las que se va a tratar el programa.
     - [`Resultado`](https://github.com/moraalees/CalcPOO/blob/main/src/main/kotlin/model/Resultado.kt): Clase sellada que representa un resultado exitoso o un error.
 - [`Directorio Ui`](https://github.com/moraalees/CalcPOO/tree/main/src/main/kotlin/ui): Contiene las clases que se van a comunicar con el usuario, pero no directamente en este directorio, si no más bien siendo implementadas en `App`.
